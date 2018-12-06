@@ -35,13 +35,15 @@ cd cf-web-server
 npm install
 ```
 
-### 3. Inicie o servidor utilizando o comando abaixo
+### 3. Abra o projeto no computador e coloque todo o seu site na pasta ***public*** (HTML, CSS, JS)
+
+### 4. Inicie o servidor utilizando o comando abaixo
 
 ```sh
 npm start
 ```
 
-### 4. Acesse a página no link: http://localhost:3000
+### 5. Acesse a página no link: http://localhost:3000
 
 ## License
 
