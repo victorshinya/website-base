@@ -16,6 +16,10 @@ app.use(bodyParser.json())
 
 app.use(express.static(path.join(__dirname, "public")))
 
+app.get('*', (_, res) => {
+    res.redirect('/')
+})
+
 const port = process.env.PORT || 3000,
     host = process.env.HOST || '0.0.0.0'
 
