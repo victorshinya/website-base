@@ -1,49 +1,48 @@
 [![](https://img.shields.io/badge/IBM%20Cloud-powered-blue.svg)](https://cloud.ibm.com)
 [![Platform](https://img.shields.io/badge/platform-nodejs-lightgrey.svg?style=flat)](https://developer.ibm.com/?s=nodejs/)
 
-# Suba seu site na IBM Cloud | Cloud Foudry Web Server com Node.js
+# Deploy your website
 
-Use esta aplicação para subir o seu site na IBM Cloud utilizando o serviço de SDK for Node.js disponível gratuitamente no plano Lite. Além disso, é possível linkar o seu domínio customizado (.com, .com.br, .io, etc) com o seu site para que o seu conteúdo esteja disponível através do seu domínio.
+Use this application to deploy your webiste on cloud. Besides that, it's possible to connect your `custom domain` (.com, .io, .dev, etc) into your website in order to available your content through your domain.
 
-![](https://github.com/victorshinya/cf-web-nodejs/blob/master/doc/source/images/architecture.jpg)
+![](https://github.com/victorshinya/website-base/blob/master/doc/source/images/architecture.jpg)
 
-## Componentes e tecnologias usadas
+## Components and technologies
 
-* [SDK for Node.js](https://cloud.ibm.com/catalog/starters/sdk-for-nodejs): Desenvolva e suba soluções na nuvem utilizando Javascript server-side na Cloud Foundry.
-* [Node.js](https://developer.ibm.com/?s=nodejs): plataforma construída sobre o motor JavaScript do Google Chrome para facilmente construir aplicações de rede rápidas e escaláveis.
+* [Node.js](https://developer.ibm.com/?s=nodejs): Platform built on the Google Chrome JavaScript engine to easily build fast and scalable network applications.
 
-## Como subir na nuvem - IBM Cloud
+## Deploy to the cloud
 
-Para subir na IBM Cloud, basta ter uma conta na IBM Cloud e clicar no botão abaixo. Caso ainda não conheça, acesse o blog no Medium da [IBM Developer Brasil](https://medium.com/ibmdeveloperbr/o-que-e-a-ibm-cloud-e-como-subir-a-sua-primeira-aplicacao-na-nuvem-41bfd260a2b7) para entender mais.
+You can click the button below to deploy the server to the cloud. If you want to learn more, you can read the [blog](https://medium.com/ibmdeveloperbr/o-que-e-a-ibm-cloud-e-como-subir-a-sua-primeira-aplicacao-na-nuvem-41bfd260a2b7) about IBM Cloud.
 
-[![Deploy to IBM Cloud](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy?repository=https://github.com/victorshinya/cf-web-nodejs)
+[![Deploy to IBM Cloud](https://cloud.ibm.com/devops/setup/deploy/button.png)](https://cloud.ibm.com/devops/setup/deploy?repository=https://github.com/victorshinya/website-base)
 
-## Como instalar e configurar localmente
+## Run locally
 
-Para instalar e executar a aplicação, é necessário ter o [Node.js](https://nodejs.org) instalado no seu computador e siga o passo a passo abaixo.
+To install and run the application, you need to install [Node.js](https://nodejs.org) and then you can follow the steps below:
 
-### 1. Baixe a aplicação
+### 1. Download the app
 
 ```sh
-git clone https://github.com/victorshinya/cf-web-nodejs.git
-cd cf-web-nodejs
+git clone https://github.com/victorshinya/website-base.git
+cd website-base
 ```
 
-### 2. Instale todas as dependências
+### 2. Install all dependencies
 
 ```sh
 npm install
 ```
 
-### 3. Abra o projeto no computador e coloque todo o seu site na pasta ***public*** (HTML, CSS, JS)
+### 3. Paste your code (HTML, CSS, and JS files) into `public` folder
 
-### 4. Inicie o servidor utilizando o comando abaixo
+### 4. Start the server running the command
 
 ```sh
 npm start
 ```
 
-### 5. Acesse a página no link: http://localhost:3000
+### 5. Access the page on your browser: http://localhost:3000
 
 ## License
 

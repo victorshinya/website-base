@@ -1,7 +1,7 @@
 {
-  "name": "cf-web-server-nodejs",
+  "name": "website-base",
   "version": "1.0.0",
-  "description": "A Web Server, created with Node.js, to accelerate new Web page deployments on IBM Cloud",
+  "description": "Node.js server to accelerate new website deployments",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,10 +12,14 @@
     "body-parser": "^1.18.3",
     "dotenv": "^6.2.0",
     "express": "^4.16.4",
-    "helmet": "^3.15.0"
+    "helmet": "^3.16.0"
   },
   "engines": {
     "node": "10.14.2",
     "npm": "6.4.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/victorshinya/website-base"
   }
 }
