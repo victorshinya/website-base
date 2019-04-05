@@ -1,7 +1,6 @@
 ---
 applications:
 - name: cf-web-server
-  buildpack: https://github.com/cloudfoundry/nodejs-buildpack
   path: .
   memory: 128M
   instances: 1
