@@ -17,9 +17,9 @@ You can click the button below to deploy the server to the cloud. If you want to
 
 [![Deploy to IBM Cloud](https://cloud.ibm.com/devops/setup/deploy/button.png)](https://cloud.ibm.com/devops/setup/deploy?repository=https://github.com/victorshinya/website-base)
 
-## Run locally
+## Run your website
 
-To install and run the application, you need to install [Node.js](https://nodejs.org) and then you can follow the steps below:
+You need to install locally, paste/move your websit into `public` folder and then run the deploy script.
 
 ### 1. Download the app
 
@@ -28,21 +28,20 @@ git clone https://github.com/victorshinya/website-base.git
 cd website-base
 ```
 
-### 2. Install all dependencies
+### 2. Paste your code (HTML, CSS, and JS files) into `public` folder
+
+### 3. Run the `deploy` script to deploy your website (if you're using Linux or Mac, use `sudo` in the beginning)
+
+```sh
+chmod -R 0755 ./deploy.sh && ./deploy.sh
+```
+
+### BONUS: If you want to test locally before, you can run the commands below. After that, access the link on http://localhost:3000
 
 ```sh
 npm install
-```
-
-### 3. Paste your code (HTML, CSS, and JS files) into `public` folder
-
-### 4. Start the server running the command
-
-```sh
 npm start
 ```
-
-### 5. Access the page on your browser: http://localhost:3000
 
 ## License
 

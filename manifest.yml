@@ -1,6 +1,6 @@
 ---
 applications:
-- name: cf-web-server
+- name: website-base
   path: .
   memory: 128M
   instances: 1
