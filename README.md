@@ -33,10 +33,12 @@ cd website-base
 ### 3. Run the `deploy` script to deploy your website (if you're using Linux or Mac, use `sudo` in the beginning)
 
 ```sh
-chmod -R 0755 ./deploy.sh && ./deploy.sh
+ibmcloud cf push
 ```
 
-### BONUS: If you want to test locally before, you can run the commands below. After that, access the link on http://localhost:3000
+## Run locally
+
+To run locally, you need to run the commands below. After that, access the link on http://localhost:3000
 
 ```sh
 npm install
