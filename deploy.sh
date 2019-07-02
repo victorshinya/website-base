@@ -1,1 +1,3 @@
-ibmcloud app push
+if test $(which ibmcloud); then 
+    ibmcloud cf push
+fi
