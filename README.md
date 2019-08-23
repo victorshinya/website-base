@@ -1,11 +1,11 @@
-[![](https://img.shields.io/badge/IBM%20Cloud-powered-blue.svg)](https://cloud.ibm.com)
-[![Platform](https://img.shields.io/badge/platform-nodejs-lightgrey.svg?style=flat)](https://developer.ibm.com/?s=nodejs/)
-
 # Deploy your website
+
+[![IBM Cloud Powered](https://img.shields.io/badge/IBM%20Cloud-powered-blue.svg)](https://cloud.ibm.com)
+[![Platform](https://img.shields.io/badge/platform-nodejs-lightgrey.svg?style=flat)](https://developer.ibm.com/?s=nodejs/)
 
 Use this application to deploy your webiste on cloud. Besides that, it's possible to connect your `custom domain` (.com, .io, .dev, etc) into your website in order to available your content through your domain.
 
-![](https://github.com/victorshinya/website-base/blob/master/doc/source/images/architecture.jpg)
+![Architecture Design](doc/source/images/architecture.jpeg)
 
 ## Components and technologies
 
@@ -28,9 +28,13 @@ git clone https://github.com/victorshinya/website-base.git
 cd website-base
 ```
 
-### 2. Paste your code (HTML, CSS, and JS files) into `public` folder
+### 2. Paste your front-end
 
-### 3. Run the `deploy` script to deploy your website (if you're using Linux or Mac, use `sudo` in the beginning)
+Paste your code (HTML, CSS, and JS files) into `public` folder.
+
+### 3. Deploy your website
+
+Run the script below to deploy your website.
 
 ```sh
 ibmcloud cf push
@@ -38,7 +42,7 @@ ibmcloud cf push
 
 ## Run locally
 
-To run locally, you need to run the commands below. After that, access the link on http://localhost:3000
+To run locally, you need to run the commands below. After that, access the link on http://localhost:3000.
 
 ```sh
 npm install
@@ -49,4 +53,4 @@ npm start
 
 MIT License
 
-Copyright (c) 2018 Victor Kazuyuki Shinya
+Copyright (c) 2019 Victor Shinya
